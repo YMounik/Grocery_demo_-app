@@ -13,6 +13,10 @@
 		69830F362221BDF800BD6C35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69830F352221BDF800BD6C35 /* Assets.xcassets */; };
 		69830F392221BDF800BD6C35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69830F372221BDF800BD6C35 /* LaunchScreen.storyboard */; };
 		69830F442221BDF800BD6C35 /* TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69830F432221BDF800BD6C35 /* TestTests.swift */; };
+		69830F4F2221C18700BD6C35 /* CouponsCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69830F4E2221C18700BD6C35 /* CouponsCellTableViewCell.swift */; };
+		69830F522221C2C800BD6C35 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69830F512221C2C800BD6C35 /* ServiceManager.swift */; };
+		69830F552221C39700BD6C35 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69830F542221C39700BD6C35 /* Constants.swift */; };
+		69830F582221C4B300BD6C35 /* Coupons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69830F572221C4B300BD6C35 /* Coupons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		69830F3F2221BDF800BD6C35 /* TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69830F432221BDF800BD6C35 /* TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTests.swift; sourceTree = "<group>"; };
 		69830F452221BDF800BD6C35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69830F4E2221C18700BD6C35 /* CouponsCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponsCellTableViewCell.swift; sourceTree = "<group>"; };
+		69830F512221C2C800BD6C35 /* ServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		69830F542221C39700BD6C35 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		69830F572221C4B300BD6C35 /* Coupons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coupons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +85,12 @@
 		69830F2D2221BDF500BD6C35 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				69830F562221C4A200BD6C35 /* Models */,
+				69830F532221C37C00BD6C35 /* Constants */,
+				69830F502221C2B900BD6C35 /* Helpers */,
 				69830F2E2221BDF500BD6C35 /* AppDelegate.swift */,
 				69830F302221BDF500BD6C35 /* ViewController.swift */,
+				69830F4E2221C18700BD6C35 /* CouponsCellTableViewCell.swift */,
 				69830F322221BDF500BD6C35 /* Main.storyboard */,
 				69830F352221BDF800BD6C35 /* Assets.xcassets */,
 				69830F372221BDF800BD6C35 /* LaunchScreen.storyboard */,
@@ -94,6 +106,30 @@
 				69830F452221BDF800BD6C35 /* Info.plist */,
 			);
 			path = TestTests;
+			sourceTree = "<group>";
+		};
+		69830F502221C2B900BD6C35 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				69830F512221C2C800BD6C35 /* ServiceManager.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		69830F532221C37C00BD6C35 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				69830F542221C39700BD6C35 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		69830F562221C4A200BD6C35 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				69830F572221C4B300BD6C35 /* Coupons.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,8 +233,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69830F552221C39700BD6C35 /* Constants.swift in Sources */,
+				69830F582221C4B300BD6C35 /* Coupons.swift in Sources */,
+				69830F4F2221C18700BD6C35 /* CouponsCellTableViewCell.swift in Sources */,
 				69830F312221BDF500BD6C35 /* ViewController.swift in Sources */,
 				69830F2F2221BDF500BD6C35 /* AppDelegate.swift in Sources */,
+				69830F522221C2C800BD6C35 /* ServiceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
